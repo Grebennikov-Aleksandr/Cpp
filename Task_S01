@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(0, "Russian");
+    double a, b;
+    cin >> a;
+    cin >> b;
+    int sl = a + b;
+    cout << "Сложение: " << sl << '\n';
+    int raz = a - b;
+    cout << "Вычитиание: " << raz << '\n';
+    double del = a / b;
+    cout << "Деление: " << del << '\n';
+    int ymn = a * b;
+    cout << "Умножение: " << ymn << '\n';
+    return 0;
+}
