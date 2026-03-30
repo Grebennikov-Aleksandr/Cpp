@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double del;
+    int a, b, ost;
+    cin >> a;
+    cin >> b;
+    del = a / b;
+    cout << "delenie: " << del << '\n';
+    ost = a % b;
+    cout <<"Ostatok: " << ost << '\n';
+    return 0;
+}
